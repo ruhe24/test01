@@ -1,0 +1,117 @@
+\documentclass[12pt,ngerman,parskip=full]{scrreprt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{babel}
+\usepackage{blindtext}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{csquotes}
+\usepackage{paralist}
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+\hypersetup{
+bookmarks=true, % show bookmarks bar
+unicode=false, % non - Latin characters in Acrobat’s bookmarks
+pdftoolbar=true, % show Acrobat’s toolbar
+pdfmenubar=true, % show Acrobat’s menu
+pdffitwindow=false, % window fit to page when opened
+pdfstartview={FitH}, % fits the width of the page to the window
+pdftitle={My title}, % title
+pdfauthor={Author}, % author
+pdfsubject={Subject}, % subject of the document
+pdfcreator={Creator}, % creator of the document
+pdfproducer={Producer}, % producer of the document
+pdfkeywords={keyword1, key2, key3}, % list of keywords
+pdfnewwindow=true, % links in new window
+colorlinks=true, % false: boxed links; true: colored links
+linkcolor=blue, % color of internal links
+filecolor=blue, % color of file links
+citecolor=blue, % color of file links
+urlcolor=blue % color of external links
+}
+
+\newcommand{\person}[1]{\textsc{\textcolor{red}{#1}}}
+
+\author{von Ruth}
+\title{Übungsfile Geburtstag\\
+\person{Für einen sehr besonderen Menschen:} \\
+Liebe/Lieber ...\\
+per \LaTeX}
+\date{Ort, Dezember 2021}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\listoffigures
+
+\begin{center}
+\includegraphics[width=.85\textwidth]{Bilder/Blumbutterfly1}\captionof{figure}{Gelber Schmetterling mit Blumen}\label{fig:Blumbutterfly1}
+\end{center}
+
+\chapter{Besonderer Tag}
+\person{\textbf{Liebe ...}}, heute ist ein besonderer Tag. 
+\section{Dein Geburtstag}
+Der Tag deiner Geburt jährt sich. 
+\subsection{Quellen}
+So kam es mir jedenfalls zu Ohren. 
+\subsection{Alter}
+Danach sollst du heute ... Jahre alt werden. 
+\section{In Wirklichkeit}
+Aber die Jahre sind das Eine, das Wesentliche ist unsichtbar, zeitlos und ewig jung. Also gibt es in Wirklichkeit keinen Geburtstag oder gibt es immer Geburtstag. 
+
+\chapter{Viel erlebt und erfahren}
+Du hast in deinem Leben vieles und sehr Unterschiedliches erlebt und erfahren. \\
+\section{Schönes}
+...
+\section{Nicht so Schönes}
+Was dich so besonders macht ist, ... 
+\subsection{Unzählige Situationen}
+...
+\subsection{Motto}
+\enquote{Bleib deinem Herzen treu.} ...
+\section{Was sich parallel durch dein Leben zog .... }
+... 
+\section{So kennen es auch Familie und Freunde}
+\marginpar{Familie und Freunde waren dir immer wichtig} 
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Bilder/Schmetterling2}\captionof{figure}{Ein Schmetterling auf roter Blumenpracht}\label{fig:Schmetterling2}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Bilder/Babyhand2}\captionof{figure}{Vertrauen wie ein Kind}\label{fig:Babyhand1}
+\end{center}
+
+\marginpar{Balance zwischen Aktivität und Vertrauen} 
+
+\chapter{Dank}
+Der Dank gehört \textbf{dir, liebe/lieber ...}. 
+\section {Danke für so vieles}
+... 
+\section{Aufzählung einer kleiner Auswahl}
+Von den zahlreichen Situationen usw. seien hier insbesondere erwähnt:  
+\begin{enumerate}
+\item Gespräche, 
+\item wunderschöne Wanderungen in den Bergen, 
+\item gemeinsames Lachen und  
+\item Ehrlichkeit und Offenheit
+\end{enumerate}
+\section{Widmung}
+In Dankbarkeit ist dieses \LaTeX-Domument dir gewidmet.
+\section{Wünsche}
+Zum Geburtstag und für alles Weitere meine herzlichsten Wünsche.
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Bilder/Schneeweihmann01}\captionof{figure}{Ein glücklicher Weihnachtsschneemann}\label{fig:Schneeweihmann01}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.4\textwidth]{Bilder/Fuchs1}\captionof{figure}{Immer wachsam unser Gartenchef Schlaufuchs}\label{fig:Fuchs1}
+\end{center}
+
+\end{document}
